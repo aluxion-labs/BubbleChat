@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		513C70F81C5B5EEA0045AEBC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 513C70F71C5B5EEA0045AEBC /* main.m */; };
+		513C70FB1C5B5EEA0045AEBC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 513C70FA1C5B5EEA0045AEBC /* AppDelegate.m */; };
+		513C71031C5B5EEA0045AEBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 513C71021C5B5EEA0045AEBC /* Assets.xcassets */; };
+		513C71061C5B5EEA0045AEBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 513C71041C5B5EEA0045AEBC /* LaunchScreen.storyboard */; };
+		513C71131C5B5FF20045AEBC /* ALBubbleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 513C71111C5B5FF20045AEBC /* ALBubbleViewController.m */; };
+		513C71141C5B5FF20045AEBC /* ALBubbleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 513C71121C5B5FF20045AEBC /* ALBubbleViewController.xib */; };
+		513C711A1C5B618C0045AEBC /* ALBubbleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 513C71191C5B618C0045AEBC /* ALBubbleView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		513C70F31C5B5EEA0045AEBC /* BubbleChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BubbleChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		513C70F71C5B5EEA0045AEBC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		513C70F91C5B5EEA0045AEBC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		513C70FA1C5B5EEA0045AEBC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		513C71021C5B5EEA0045AEBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		513C71051C5B5EEA0045AEBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		513C71071C5B5EEA0045AEBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		513C71101C5B5FF20045AEBC /* ALBubbleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALBubbleViewController.h; sourceTree = "<group>"; };
+		513C71111C5B5FF20045AEBC /* ALBubbleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALBubbleViewController.m; sourceTree = "<group>"; };
+		513C71121C5B5FF20045AEBC /* ALBubbleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ALBubbleViewController.xib; sourceTree = "<group>"; };
+		513C71181C5B618C0045AEBC /* ALBubbleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALBubbleView.h; sourceTree = "<group>"; };
+		513C71191C5B618C0045AEBC /* ALBubbleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALBubbleView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		513C70F01C5B5EEA0045AEBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		513C70EA1C5B5EEA0045AEBC = {
+			isa = PBXGroup;
+			children = (
+				513C70F51C5B5EEA0045AEBC /* BubbleChat */,
+				513C70F41C5B5EEA0045AEBC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		513C70F41C5B5EEA0045AEBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				513C70F31C5B5EEA0045AEBC /* BubbleChat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		513C70F51C5B5EEA0045AEBC /* BubbleChat */ = {
+			isa = PBXGroup;
+			children = (
+				513C70F91C5B5EEA0045AEBC /* AppDelegate.h */,
+				513C70FA1C5B5EEA0045AEBC /* AppDelegate.m */,
+				513C71021C5B5EEA0045AEBC /* Assets.xcassets */,
+				513C71041C5B5EEA0045AEBC /* LaunchScreen.storyboard */,
+				513C71071C5B5EEA0045AEBC /* Info.plist */,
+				513C70F61C5B5EEA0045AEBC /* Supporting Files */,
+				513C71101C5B5FF20045AEBC /* ALBubbleViewController.h */,
+				513C71111C5B5FF20045AEBC /* ALBubbleViewController.m */,
+				513C71121C5B5FF20045AEBC /* ALBubbleViewController.xib */,
+				513C71181C5B618C0045AEBC /* ALBubbleView.h */,
+				513C71191C5B618C0045AEBC /* ALBubbleView.m */,
+			);
+			path = BubbleChat;
+			sourceTree = "<group>";
+		};
+		513C70F61C5B5EEA0045AEBC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				513C70F71C5B5EEA0045AEBC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		513C70F21C5B5EEA0045AEBC /* BubbleChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 513C710A1C5B5EEA0045AEBC /* Build configuration list for PBXNativeTarget "BubbleChat" */;
+			buildPhases = (
+				513C70EF1C5B5EEA0045AEBC /* Sources */,
+				513C70F01C5B5EEA0045AEBC /* Frameworks */,
+				513C70F11C5B5EEA0045AEBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BubbleChat;
+			productName = BubbleChat;
+			productReference = 513C70F31C5B5EEA0045AEBC /* BubbleChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		513C70EB1C5B5EEA0045AEBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = AluxionLabs;
+				TargetAttributes = {
+					513C70F21C5B5EEA0045AEBC = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 513C70EE1C5B5EEA0045AEBC /* Build configuration list for PBXProject "BubbleChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 513C70EA1C5B5EEA0045AEBC;
+			productRefGroup = 513C70F41C5B5EEA0045AEBC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				513C70F21C5B5EEA0045AEBC /* BubbleChat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		513C70F11C5B5EEA0045AEBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				513C71141C5B5FF20045AEBC /* ALBubbleViewController.xib in Resources */,
+				513C71061C5B5EEA0045AEBC /* LaunchScreen.storyboard in Resources */,
+				513C71031C5B5EEA0045AEBC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		513C70EF1C5B5EEA0045AEBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				513C70FB1C5B5EEA0045AEBC /* AppDelegate.m in Sources */,
+				513C711A1C5B618C0045AEBC /* ALBubbleView.m in Sources */,
+				513C70F81C5B5EEA0045AEBC /* main.m in Sources */,
+				513C71131C5B5FF20045AEBC /* ALBubbleViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		513C71041C5B5EEA0045AEBC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				513C71051C5B5EEA0045AEBC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		513C71081C5B5EEA0045AEBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		513C71091C5B5EEA0045AEBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		513C710B1C5B5EEA0045AEBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BubbleChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AL.BubbleChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		513C710C1C5B5EEA0045AEBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BubbleChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AL.BubbleChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		513C70EE1C5B5EEA0045AEBC /* Build configuration list for PBXProject "BubbleChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				513C71081C5B5EEA0045AEBC /* Debug */,
+				513C71091C5B5EEA0045AEBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		513C710A1C5B5EEA0045AEBC /* Build configuration list for PBXNativeTarget "BubbleChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				513C710B1C5B5EEA0045AEBC /* Debug */,
+				513C710C1C5B5EEA0045AEBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 513C70EB1C5B5EEA0045AEBC /* Project object */;
+}
